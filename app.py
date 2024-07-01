@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 
 images = [
-    "https://raw.githubusercontent.com/manifoldailearning/mlops-with-aws-datascientists/main/Section-11-Docker/images/image1.gif",
-    "https://raw.githubusercontent.com/manifoldailearning/mlops-with-aws-datascientists/main/Section-11-Docker/images/image2.gif",
-    "https://raw.githubusercontent.com/manifoldailearning/mlops-with-aws-datascientists/main/Section-11-Docker/images/image3.gif",
-    "https://raw.githubusercontent.com/manifoldailearning/mlops-with-aws-datascientists/main/Section-11-Docker/images/image4.gif",
-    "https://raw.githubusercontent.com/manifoldailearning/mlops-with-aws-datascientists/main/Section-11-Docker/images/image5.gif"
+    "https://raw.githubusercontent.com/lidorg-dev/cats-images/main/images/image1.gif",
+    "https://raw.githubusercontent.com/lidorg-dev/cats-images/main/images/image2.gif",
+    "https://raw.githubusercontent.com/lidorg-dev/cats-images/main/images/image3.gif",
+    "https://raw.githubusercontent.com/lidorg-dev/cats-images/main/images/image4.gif",
+    "https://raw.githubusercontent.com/lidorg-dev/cats-images/main/images/image5.gif"
 ]
 
 @app.route("/")
